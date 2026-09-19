@@ -1,6 +1,6 @@
 # D435i Calibration Kit 2
 
-本工具包用于在 Ubuntu 20.04 + ROS Noetic 环境下标定第二台 Intel RealSense D435i。
+本工具包用于在 Ubuntu 20.04 + ROS Noetic 环境下标定 Intel RealSense D435i。
 
 所有新录制的 bag 和标定结果都会存放在：
 
@@ -78,4 +78,4 @@ cd /home/yip/D435i_Calibration_Kit_2
 
 Allan 工具直接处理 bag，不需要使用 `rosbag play`。
 
-AprilGrid 配置为 6×6、标签尺寸 24 mm、标称间隙 7.2 mm。使用前请确认打印的标定板。不要混用第一台和第二台 D435i 的数据。
+AprilGrid 配置为 6×6、标签尺寸 24 mm、标称间隙 7.2 mm。使用前请确认打印的标定板。
