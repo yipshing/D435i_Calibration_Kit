@@ -5,7 +5,7 @@
 所有新录制的 bag 和标定结果都会存放在：
 
 ```text
-/home/yip/D435i_Calibration_Kit_2/calibration_data/
+/D435i_Calibration_Kit_2/calibration_data/
 ```
 
 整个流程包含三个相互独立的数据集：
